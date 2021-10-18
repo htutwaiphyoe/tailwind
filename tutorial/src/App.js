@@ -7,7 +7,7 @@ import SaveIcon from "@mui/icons-material/Save";
 import DeleteIcon from "@mui/icons-material/Delete";
 import BookmarkBorderIcon from "@mui/icons-material/BookmarkBorder";
 import BookmarkIcon from "@mui/icons-material/Bookmark";
-import { TextField, Typography, Container, Grid, Paper } from "@mui/material";
+import { TextField, Typography, Container, Grid, Paper, Drawer } from "@mui/material";
 import { ThemeProvider, createTheme } from "@mui/material/styles";
 import { green, purple } from "@mui/material/colors";
 
@@ -28,6 +28,9 @@ const theme = createTheme({
 });
 function App() {
     const [checked, setChecked] = React.useState(false);
+    const closeHandler = () => {
+        setChecked(false);
+    };
     return (
         <ThemeProvider theme={theme}>
             <Container maxWidth="sm">
@@ -85,6 +88,10 @@ function App() {
                     </Grid>
                 </Grid>
             </Container>
+
+            <Drawer variant="temporary" open={checked} onClose={closeHandler} anchor="right">
+                hahaasdfasdfsssssssssssssssssssss
+            </Drawer>
         </ThemeProvider>
     );
 }
