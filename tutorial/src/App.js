@@ -7,6 +7,7 @@ import SaveIcon from "@mui/icons-material/Save";
 import DeleteIcon from "@mui/icons-material/Delete";
 import BookmarkBorderIcon from "@mui/icons-material/BookmarkBorder";
 import BookmarkIcon from "@mui/icons-material/Bookmark";
+import { TextField } from "@mui/material";
 
 import "./App.css";
 
@@ -38,6 +39,15 @@ function App() {
                         />
                     }
                     label="Bookmark"
+                />
+            </div>
+            <div>
+                <TextField
+                    variant="outlined"
+                    label="Email"
+                    placeholder="johndoe@example.com"
+                    color="secondary"
+                    type="email"
                 />
             </div>
         </div>
