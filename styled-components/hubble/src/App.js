@@ -1,5 +1,7 @@
+import { Container } from "./components/styles/Container.styled";
+
 function App() {
-    return <div className="App">Hello, Styled Components</div>;
+    return <Container>Hello, Styled Components</Container>;
 }
 
 export default App;
