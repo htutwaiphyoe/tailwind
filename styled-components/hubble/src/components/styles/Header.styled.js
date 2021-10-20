@@ -1,14 +1,15 @@
 import styled from "styled-components";
 
 export const StyledHeader = styled.header`
-    background-color: ${({ theme }) => theme.colors.header};
+    background: ${({ theme }) => theme.colors.header};
     padding: 40px 0;
-
-    & h1 {
-        color: red;
-    }
-
-    &:hover {
-        background-color: #111;
-    }
+    font-family: "Poppins", sans-serif;
 `;
+
+export const Navigation = styled.nav`
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+`;
+
+export const Logo = styled.img``;

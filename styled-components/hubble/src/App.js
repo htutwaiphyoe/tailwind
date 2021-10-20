@@ -15,9 +15,8 @@ function App() {
     return (
         <ThemeProvider theme={theme}>
             <GlobalStyles />
-            <Container>
-                <Header />
-            </Container>
+            <Header />
+            <Container></Container>
         </ThemeProvider>
     );
 }
