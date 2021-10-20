@@ -12,4 +12,7 @@ export const Button = styled.button`
         opacity: 0.8;
         transform: scale(0.98);
     }
+    @media only screen and (max-width: ${({ theme }) => theme.width.sm}) {
+        padding: 1.5rem 3rem;
+    }
 `;
