@@ -41,4 +41,8 @@ export const GlobalStyles = createGlobalStyle`
     h1,h2{
       margin-bottom: 1rem;
     }
+
+    ul{
+        list-style: none;
+    }
 `;

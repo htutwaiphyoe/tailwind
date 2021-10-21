@@ -4,6 +4,7 @@ import { Container } from "./components/styles/Container.styled";
 import { GlobalStyles } from "./components/styles/Global.styled";
 import Header from "./components/Header/Header";
 import Card from "./components/Card/Card";
+import Footer from "./components/Footer/Footer";
 import contents from "./assets/data/data";
 const theme = {
     colors: {
@@ -29,6 +30,7 @@ function App() {
                     <Card content={content} key={i} layout={(i + 1) % 2 === 0} />
                 ))}
             </Container>
+            <Footer />
         </ThemeProvider>
     );
 }

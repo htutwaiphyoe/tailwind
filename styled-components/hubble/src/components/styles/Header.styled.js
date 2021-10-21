@@ -1,7 +1,11 @@
 import styled from "styled-components";
 
 export const StyledHeader = styled.header`
-    background: ${({ theme }) => theme.colors.header};
+    background-image: url("./images/bg-hero-desktop.svg"),
+        linear-gradient(
+            ${({ theme }) => theme.colors.header},
+            ${({ theme }) => theme.colors.header}
+        );
     padding: 40px 0;
     font-family: "Poppins", sans-serif;
     margin-bottom: 7rem;
