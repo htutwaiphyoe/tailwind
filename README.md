@@ -1,10 +1,8 @@
-# Mastering UI Framework
+# Mastering Tailwind
 
 ## Table of contents
 
-- Material UI
-- Styled-Components
-  - Huddle
-- Tailwind
-  - Apple
-  - Portfolio
+Projects
+
+1. Apple
+2. Portfolio
