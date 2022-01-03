@@ -1,8 +1,9 @@
 # Mastering Tailwind
 
-## Table of contents
+## Table of Contents
 
-Projects
+### Mohammed Kily
 
-1. Apple
-2. Portfolio
+- Introduction
+- Apple
+- Portfolio
