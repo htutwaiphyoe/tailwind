@@ -6,3 +6,4 @@
 - container
 - sizing
 - spacing
+- typography
