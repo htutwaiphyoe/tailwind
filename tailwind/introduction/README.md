@@ -3,7 +3,7 @@
 - background
 - border
 - flex box and grid
-- container
+- layout
 - sizing
 - spacing
 - typography
