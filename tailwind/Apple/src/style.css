@@ -3,9 +3,6 @@
 @tailwind utilities;
 
 @layer utilities {
-  .bg-gray-850 {
-    background-color: #151516;
-  }
   @media (min-width: 512px) {
     .min-h-home-lg {
       min-height: 75vh;
