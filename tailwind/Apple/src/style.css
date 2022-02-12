@@ -3,6 +3,12 @@
 @tailwind utilities;
 
 @layer utilities {
+  .h-80px {
+    height: 80px;
+  }
+  .w-400px {
+    width: 400px;
+  }
   @media (min-width: 512px) {
     .min-h-home-lg {
       min-height: 75vh;

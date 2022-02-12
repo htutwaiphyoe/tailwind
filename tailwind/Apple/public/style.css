@@ -514,6 +514,22 @@ Ensure the default browser behavior of the `hidden` attribute.
   top: 0px;
 }
 
+.left-0 {
+  left: 0px;
+}
+
+.right-0 {
+  right: 0px;
+}
+
+.bottom-auto {
+  bottom: auto;
+}
+
+.bottom-0 {
+  bottom: 0px;
+}
+
 .z-50 {
   z-index: 50;
 }
@@ -581,6 +597,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .mt-4 {
   margin-top: 1rem;
+}
+
+.-mt-20 {
+  margin-top: -5rem;
 }
 
 .block {
@@ -671,6 +691,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   justify-content: space-between;
 }
 
+.overflow-hidden {
+  overflow: hidden;
+}
+
 .whitespace-nowrap {
   white-space: nowrap;
 }
@@ -751,6 +775,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-position: center;
 }
 
+.fill-current {
+  fill: currentColor;
+}
+
 .p-3 {
   padding: 0.75rem;
 }
@@ -797,6 +825,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .py-5 {
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
+}
+
+.py-20 {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
 }
 
 .pt-16 {
@@ -889,6 +922,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   color: rgb(55 65 81 / var(--tw-text-opacity));
 }
 
+.text-black {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
+.text-gray-300 {
+  --tw-text-opacity: 1;
+  color: rgb(209 213 219 / var(--tw-text-opacity));
+}
+
 .shadow {
   --tw-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
   --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);
@@ -904,6 +947,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 .outline-none {
   outline: 2px solid transparent;
   outline-offset: 2px;
+}
+
+.h-80px {
+  height: 80px;
+}
+
+.w-400px {
+  width: 400px;
 }
 
 @media (min-width: 512px) {
@@ -935,6 +986,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .md\:w-5\/12 {
     width: 41.666667%;
+  }
+
+  .md\:pr-12 {
+    padding-right: 3rem;
   }
 }
 
